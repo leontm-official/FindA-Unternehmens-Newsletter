@@ -16,7 +16,7 @@
         <div class="popup-beschreibung" id="popup-beschreibung">
             Hallo liebe Unternehmen, <br>
             hier ist das FindA Team. Wir wollen Sie herzlichst willkommen auf der Newsletter Seite zu FindA heißen. <br>
-            <span onclick="showRest()">mehr...</span>
+            <span id="mehr" onclick="showRest()">mehr...</span>
             <span id="rest" class="hide">Mit diesem Newsletter können Sie sich über alles was Wir tun auf dem Laufendem halten. So können Sie immer Up-To-Date sein, und wir müssen nicht immer wieder Mails schreiben.
             <br>
             <br>
@@ -38,6 +38,7 @@
         };
         function showRest() {
             document.getElementById("rest").classList.remove("hide");
+            document.getElementById("mehr").classList.add("hide");
         };
     </script>
 </body>
