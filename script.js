@@ -3,4 +3,4 @@ function closePopup() {
 };
 function showRest() {
     document.getElementById("rest").classList.remove("hide");
-}
+};
